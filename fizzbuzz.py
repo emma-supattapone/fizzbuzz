@@ -56,7 +56,7 @@ for L in range(1,nums+1):
         H = H + "Buzz"
     if H:
         print(H)
-    else:
-        print(L)
+    for x in L:
+        print(x)
 
 
