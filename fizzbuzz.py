@@ -50,9 +50,8 @@ buz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for L in range(1,nums+1):
     H = " "
-    if L % fiz != 0:
-    if L % buz != 0:
-
+for x in range(L):
+    print(x)
 
     if L % fiz == 0:
         H = H + "Fizz"
