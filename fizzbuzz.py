@@ -48,34 +48,16 @@ nums = int(input("How many numbers shall we print? "))
 fiz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
-L = range(1,nums+1)
-print(list(L))
-line = " "
-if L % fiz == 0
-    line = line + "Fizz"
-if L % buz == 0
-    line = line + "Buzz"
-if line:
-    print line
-else:
-    print n
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for L in range(1,nums+1):
+    print(list(L))
+    line = " "
+    if L % fiz == 0:
+        H = H + "Fizz"
+    if L % buz == 0:
+        H = H + "Buzz"
+    if H:
+        print(H)
+    else:
+        print(L)
 
 
