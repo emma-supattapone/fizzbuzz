@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Emma Supattapone
+Credit: Abby Feyrer
 
 Assignment:
 
@@ -48,10 +48,18 @@ nums = int(input("How many numbers shall we print? "))
 fiz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
-L = range(int(nums))
+L = range(1,nums+1)
 print(list(L))
-if int()
-e
+line = " "
+if L % fiz == 0
+    line = line + "Fizz"
+if L % buz == 0
+    line = line + "Buzz"
+if line:
+    print line
+else:
+    print n
+
 
 
 
