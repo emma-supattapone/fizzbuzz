@@ -49,13 +49,13 @@ fiz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for L in range(1,nums+1):
-    x = " "
-for x in range(1,L+1):
-    if x % (fiz) == 0 and x % buz == 0:
+    H = " "
+for H in range(1,L+1):
+    if H % (fiz) == 0 and H % buz == 0:
         print("FizzBuzz")
-    elif x % fiz == 0:
+    elif H % fiz == 0:
         print("Fizz")
-    elif x % buz == 0:
+    elif H % buz == 0:
         print("Buzz")
     else:
-        print(x)
+        print(H)
