@@ -59,6 +59,3 @@ for x in range(1,L):
         print("Buzz")
     else:
         print(x)
-  
-
-
